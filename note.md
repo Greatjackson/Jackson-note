@@ -191,7 +191,7 @@ Next steps:
 Existing Git Repo?
 
   cd existing_git_repo
-  git remote add origin git@github.com:Greatjackson/Jackson-note.git
+i  git remote add origin git@github.com:Greatjackson/Jackson-note.git
   git push -u origin master
       
 
@@ -204,11 +204,14 @@ When you're done:
 
   Continue
 
+
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 if you want insert ang substance,you must enter insert mode,or the computer will search the first letter "i",and insert after
 
 content.
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 how to delete indent 
 
