@@ -245,16 +245,27 @@ akaedu@akaedu-desktop:~/lgnote$ tig
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 akaedu@akaedu-desktop:~/aaa$ gcc -Wall lg.c
+
 akaedu@akaedu-desktop:~/aaa$ echo $?
+
 0
+
 akaedu@akaedu-desktop:~/aaa$ ./a.out
+
 hello!
+
 akaedu@akaedu-desktop:~/aaa$ 
+
 akaedu@akaedu-desktop:~/aaa$ gcc -Wall lg.c  "show the error and warning of  compile programme "
+
 akaedu@akaedu-desktop:~/aaa$ echo $?        "show the return value of the main function "
+
 0
+
 akaedu@akaedu-desktop:~/aaa$ ./a.out
+
 hello!
+
 akaedu@akaedu-desktop:~/aaa$ 
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
