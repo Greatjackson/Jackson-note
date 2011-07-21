@@ -199,11 +199,9 @@ Importing a Subversion Repo?
 
   Click here
       
+When you are done:
 
-When you're done:
-
-  Continue
-
+Continue
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
@@ -277,3 +275,59 @@ ctrl+d or exit   "exit the new bush "
 u       "undo but in new bush mode"
 
 ctrl+r   "redo in undo mode"
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+akaedu@akaedu-desktop:~/lgnote$ ls
+
+akaedu@akaedu-desktop:~/lgnote$ ls
+
+akaedu@akaedu-desktop:~/lgnote$ la
+
+.git
+
+akaedu@akaedu-desktop:~/lgnote$ git throw
+
+HEAD is now at 372ec83 f
+
+akaedu@akaedu-desktop:~/lgnote$ ls
+
+note.md
+
+akaedu@akaedu-desktop:~/lgnote$ vim note.md 
+
+akaedu@akaedu-desktop:~/lgnote$ 
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+akaedu@akaedu-desktop:~$ wget http://media.happypeter.org/happycasts/happycity/taiyuan_gongye-casts/git-hello-world.ogv
+
+--2011-07-20 17:02:50--  http://media.happypeter.org/happycasts/happycity/taiyuan_gongye-casts/git-hello-world.ogv
+
+Resolving media.happypeter.org... 122.115.61.189
+
+Connecting to media.happypeter.org|122.115.61.189|:80... connected.
+
+HTTP request sent, awaiting response... 200 OK
+
+Length: 17619395 (17M) [video/ogg]
+
+Saving to: `git-hello-world.ogv'
+
+
+100%[===================================================================================>] 17,619,395   125K/s   in 3m 2s   
+
+2011-07-20 17:05:52 (94.6 KB/s) - `git-hello-world.ogv' saved [17619395/17619395]
+
+akaedu@akaedu-desktop:~$ ls
+
+aaa       bookmarks.html  Documents              git-hello-world.ogv  index.html    Music     Templates  下载
+
+aaa.html  ccc             Downloads              h1.c                 index.html.1  Pictures  tg-note    桌面
+
+aaa.md    Desktop         examples.desktop       h.c                  lgnote        psjicfh   Videos
+
+a.out     dir             Firefox_wallpaper.png  h.diff               lg-project    Public    图片
+
+akaedu@akaedu-desktop:~$ totem git-hello-world.ogv                   "when you can not find a file under directory or mistake to delete it,perhaps you feel anxious,but I will say do not worry,you only do that input 'git throw',all is ok,because the missed file is hiding  saved in '.git'   " 
