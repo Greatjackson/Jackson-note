@@ -330,4 +330,76 @@ aaa.md    Desktop         examples.desktop       h.c                  lgnote    
 
 a.out     dir             Firefox_wallpaper.png  h.diff               lg-project    Public    图片
 
-akaedu@akaedu-desktop:~$ totem git-hello-world.ogv                   "when you can not find a file under directory or mistake to delete it,perhaps you feel anxious,but I will say do not worry,you only do that input 'git throw',all is ok,because the missed file is hiding  saved in '.git'   " 
+akaedu@akaedu-desktop:~$ totem git-hello-world.ogv                  
+
+ "when you can not find a file under directory or mistake to delete it,perhaps you feel anxious,but I will say do not worry,
+  
+  you only do that input 'git throw',all is ok,because the missing file is hiding  saved in '.git'  "
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+   安装vim插件的实质就是将这个插件放到根目录下的.vim里面
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+akaedu@akaedu-desktop:~$ cd .vim
+
+akaedu@akaedu-desktop:~/.vim$ cd snippets/
+
+akaedu@akaedu-desktop:~/.vim/snippets$ vim c.snippets      "set-up snippets             dir=directory"
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+akaedu@akaedu-desktop:~$ vim .bashrc        "set-up alias                   sudo= sudo apt-get install "
+
+akaedu@akaedu-desktop:~$ sudo aaa
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+kaedu@akaedu-desktop:~/aaa$ touch trash                      "attention:you must set the new file in the lg-project that you can git push it"
+
+akaedu@akaedu-desktop:~/aaa$ git add trash
+
+akaedu@akaedu-desktop:~/aaa$ git commit -a
+
+[master 8ab38d9] set a trash file for a test
+
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+
+ create mode 100644 aaa/trash
+
+akaedu@akaedu-desktop:~/aaa$ tig
+
+akaedu@akaedu-desktop:~/aaa$ git rm trash 
+
+rm 'aaa/trash'
+
+akaedu@akaedu-desktop:~/aaa$ git commit -a
+
+[master fa6da39] delete the trash file you do not need
+
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+
+ delete mode 100644 aaa/trash
+
+akaedu@akaedu-desktop:~/aaa$ tig
+
+akaedu@akaedu-desktop:~/aaa$ git push
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+git pull origin master                          "appoint concrete pull file"
+
+"do not mix <tab> and whitespace "
+
+ctrl t    "deal the indent in insert mode"
+
+ctrl d
+ 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+i_CTRL_X_K     "check dictionary"
+
+ctrl + ]      "view the function"
+
+ctrl + t       "go back"
