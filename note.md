@@ -59,7 +59,7 @@ akaedu@akaedu-desktop:~$ diff h.c h1.c
 
 >       printf("hello\n");
 
-akaedu@akaedu-desktop:~$ diff -u h.c h1.c >h.diff
+akaedu@akaedu-desktop:~$ diff -u h.c h1.c >h.diff               ""
 
 akaedu@akaedu-desktop:~$ vim h.
 
@@ -79,7 +79,7 @@ akaedu@akaedu-desktop:~$ ls
 aaa    ccc      dir        Downloads         h1.c  h.diff      index.html.1  Music     psjicfh  Templates  Videos  下载
 a.out  Desktop  Documents  examples.desktop  h.c   index.html  lgnote        Pictures  Public   tg-note    图片    桌面
 
-akaedu@akaedu-desktop:~$ patch h.c < h.diff
+akaedu@akaedu-desktop:~$ patch h.c < h.diff                     ""
 
 patching file h.c
 
@@ -93,7 +93,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 akaedu@akaedu-desktop:~/lgnote$ cd
 
-akaedu@akaedu-desktop:~$ patch -R h.c < h.diff
+akaedu@akaedu-desktop:~$ patch -R h.c < h.diff                  ""
 
 patching file h.c
 
@@ -205,7 +205,7 @@ Continue
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-if you want insert ang substance,you must enter insert mode,or the computer will search the first letter "i",and insert after
+if you want insert any substance,you must enter insert mode,or the computer will search the first letter "i",and insert after
 
 content.
 
@@ -240,19 +240,7 @@ akaedu@akaedu-desktop:~/lgnote$ git commit -a -m "first "
 
 akaedu@akaedu-desktop:~/lgnote$ tig 
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-akaedu@akaedu-desktop:~/aaa$ gcc -Wall lg.c
-
-akaedu@akaedu-desktop:~/aaa$ echo $?
-
-0
-
-akaedu@akaedu-desktop:~/aaa$ ./a.out
-
-hello!
-
-akaedu@akaedu-desktop:~/aaa$ 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
 
 akaedu@akaedu-desktop:~/aaa$ gcc -Wall lg.c  "show the error and warning of  compile programme "
 
@@ -403,3 +391,91 @@ i_CTRL_X_K     "check dictionary"
 ctrl + ]      "view the function"
 
 ctrl + t       "go back"
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+     scp -r peter@192.168.1.20:~/repo-farm .
+
+"copy the file from else computer"
+
+    git checkout *the front number of the edition`s serial-number*
+
+    git checkout master 
+
+"check previous edition"
+
+    git checkout *the front number of the edition`s serial-number* -b *new branch name*
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+akaedu@akaedu-desktop:~/tig$ gitk
+
+    git branch -D *branch name*
+
+"delete the branch name"
+
+    git commit -a -v  
+
+"occur the detail message of the file"
+
+    which *file name*
+
+"display file position"
+
+    locate *file name*
+
+"search file in the database"
+
+    sudo updatedb
+
+"update the database"
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+akaedu@akaedu-desktop:~$ find lg-project/
+
+lg-project/
+
+lg-project/tags
+
+lg-project/main.c
+
+lg-project/hello.c
+
+lg-project/a.out
+
+akaedu@akaedu-desktop:~$ find lg-project|grep hello
+
+lg-project/hello.c
+
+akaedu@akaedu-desktop:~$ 
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+akaedu@akaedu-desktop:~$ ps aux|grep firefox
+
+akaedu    1348 12.4 16.2 353396 81212 ?        Sl   14:31   6:47 /usr/lib/firefox-3.6.18/firefox-bin
+
+akaedu    1406  1.6  5.1 106220 25976 ?        Sl   14:33   0:53 /usr/lib/firefox-3.6.18/plugin-container /usr/lib/flashplugin-installer/libflashplayer.so 1348 plugin true
+
+akaedu    1714  0.0  0.1   3532   792 pts/1    S+   15:25   0:00 grep --color=auto firefox
+
+akaedu@akaedu-desktop:~$ kill 1714
+
+bash: kill: (1714) - No such process
+
+akaedu@akaedu-desktop:~$ kill 1348
+
+akaedu@akaedu-desktop:~$ kill -9 1348
+
+    kill -9 1348
+
+"'-9' force close the stopped running program"
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+"执行make指令，必须当前目录下有Makefile"
+
+steve jobs  standford
+
+"code is law"
